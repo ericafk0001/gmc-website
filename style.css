@@ -9,6 +9,11 @@ body {
     background: #f3f3f3;
 }
 
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
 #header {
     position: fixed;
     background: #fff;
@@ -26,6 +31,7 @@ body {
 #header-links a {
     text-decoration: none;
     font-weight: 700;
+    font-size: 1.25rem;
     color: black;
 }
 
@@ -37,9 +43,17 @@ body {
 
 #title h1 {
     color: rgb(181, 0, 0);
-    font-size: 3.5rem;
+    font-size: 4rem;
+}
+
+#title h2 {
+    font-size: 2.5rem;
 }
 
 #worship {
     text-align: center;
+}
+
+#worship h2 {
+    font-size: 2.5rem;
 }
